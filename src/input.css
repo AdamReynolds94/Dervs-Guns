@@ -1,0 +1,446 @@
+.contianer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #b6c1b5;
+  border-bottom: #23403b solid 0.6rem;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media screen and (max-width: 425px) {
+  .contianer {
+    flex-direction: column;
+  }
+}
+
+.logo-div {
+  flex: auto;
+  display: flex;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  -webkit-clip-path: circle(35% at 50% 50%);
+          clip-path: circle(35% at 50% 50%);
+}
+@media screen and (max-width: 425px) {
+  .logo-div {
+    -webkit-clip-path: circle(40% at 50% 50%);
+            clip-path: circle(40% at 50% 50%);
+  }
+  .logo-div img {
+    width: 60vw;
+  }
+}
+.logo-div .logo {
+  width: 20vw;
+}
+@media screen and (max-width: 425px) {
+  .logo-div .logo {
+    width: 50vw;
+  }
+}
+
+.name-div {
+  font-family: "Black Ops One", cursive;
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  width: 42vw;
+  align-items: center;
+}
+@media screen and (max-width: 425px) {
+  .name-div {
+    width: 99vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+  }
+}
+
+.info-div {
+  display: flex;
+  font-family: "Special Elite", cursive;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 32vw;
+}
+@media screen and (max-width: 425px) {
+  .info-div {
+    width: 100vw;
+  }
+}
+
+.info-h1 {
+  text-decoration: none;
+  font-size: 2.5rem;
+  color: black;
+  font-family: "Black Ops One";
+  letter-spacing: 0.1rem;
+}
+
+.CTA {
+  flex: auto;
+  display: flex;
+  width: 50%;
+  height: 100%;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+}
+.CTA .heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-size: 3.1rem;
+  font-family: "Special Elite", cursive;
+}
+@media screen and (max-width: 425px) {
+  .CTA .heading {
+    font-size: xx-large;
+  }
+}
+@media screen and (max-width: 425px) {
+  .CTA {
+    width: 100vw;
+  }
+}
+
+.background-div {
+  height: 60vh;
+  display: flex;
+  background-color: #fff;
+  border-bottom: #23403b solid 0.6rem;
+}
+@media screen and (max-width: 425px) {
+  .background-div {
+    height: unset;
+    flex-direction: column;
+  }
+}
+.background-div img {
+  width: 40vw;
+}
+.background-div .p-div {
+  color: #23403b;
+  font-size: 1.7rem;
+  font-weight: 900;
+  font-family: "Special Elite", cursive;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.background-div .block {
+  display: flex;
+  border-left: #23403b solid 0.6rem;
+}
+@media screen and (max-width: 425px) {
+  .background-div .block {
+    border: unset;
+  }
+}
+@media screen and (max-width: 425px) {
+  .background-div .block img {
+    width: 100%;
+    border: unset;
+  }
+}
+
+.about-div {
+  background-color: #fff;
+}
+.about-div p {
+  margin: unset;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: xx-large;
+  font-family: "Special Elite", cursive;
+}
+
+.top-info {
+  display: flex;
+  flex-direction: row;
+  border-bottom: #23403b solid 0.6rem;
+}
+.top-info img {
+  width: 45vw;
+}
+.top-info p {
+  font-size: 1.5rem;
+  border-left: #23403b solid 0.6rem;
+  width: 50vw;
+}
+@media screen and (max-width: 425px) {
+  .top-info {
+    flex-direction: column-reverse;
+  }
+  .top-info p {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 100%;
+    border: unset;
+    justify-content: center;
+    height: 20vh;
+  }
+  .top-info img {
+    width: 100%;
+    border-top: #23403b solid 0.6rem;
+  }
+}
+
+.mid-info {
+  display: flex;
+  flex-direction: row;
+  border-bottom: #23403b solid 0.6rem;
+}
+.mid-info p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  font-size: 1.5rem;
+  width: 70vw;
+}
+@media screen and (max-width: 425px) {
+  .mid-info p {
+    width: 100%;
+    padding: 3%;
+    font-size: 1.3rem;
+  }
+}
+.mid-info img {
+  width: 27%;
+  border-left: #23403b solid 0.6rem;
+}
+.mid-info .brands-div {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+}
+@media screen and (max-width: 425px) {
+  .mid-info .brands-div p {
+    padding-top: 15%;
+    align-self: center;
+    width: 75vw;
+    font-size: 1.5rem;
+  }
+  .mid-info .brands-div .brands {
+    flex-direction: column;
+  }
+  .mid-info .brands-div .brands img {
+    width: 50%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+  }
+}
+.mid-info .brands-div .brands {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 3rem;
+}
+.mid-info .brands-div .brand-img {
+  border-left: unset;
+  width: 15%;
+  height: 40%;
+  align-items: center;
+}
+@media screen and (max-width: 425px) {
+  .mid-info {
+    flex-direction: column;
+  }
+  .mid-info .ar-photo {
+    display: none;
+  }
+}
+
+.bottom-info {
+  display: flex;
+  flex-direction: row;
+  border-bottom: #23403b solid 0.6rem;
+}
+.bottom-info p {
+  padding: 4.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  font-size: 1.5rem;
+  width: 55vw;
+}
+.bottom-info img {
+  width: 45%;
+  border-right: #23403b solid 0.6rem;
+}
+@media screen and (max-width: 425px) {
+  .bottom-info {
+    flex-direction: column;
+    width: 100%;
+  }
+  .bottom-info p {
+    height: 25vh;
+    line-height: 125%;
+    width: auto;
+  }
+  .bottom-info img {
+    width: 100%;
+    border-bottom: #23403b solid 0.6rem;
+    border-right: unset;
+  }
+}
+
+.end-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  border-bottom: #23403b solid 0.6rem;
+  font-size: 1.5rem;
+}
+.end-info .para-div {
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.end-info .para-div p {
+  padding-top: 1.5%;
+  width: 33vw;
+}
+.end-info img {
+  border-left: #23403b solid 0.6rem;
+  width: 49vw;
+}
+@media screen and (max-width: 425px) {
+  .end-info {
+    flex-direction: column;
+  }
+  .end-info img {
+    border-bottom: #23403b solid 0.6rem;
+    width: 100vw;
+  }
+  .end-info .para-div {
+    width: 100vw;
+    height: 40vh;
+  }
+  .end-info .para-div p {
+    width: 85vw;
+  }
+}
+
+.last-info {
+  display: flex;
+  flex-direction: row;
+  border-bottom: #23403b solid 0.6rem;
+}
+.last-info img {
+  width: 45vw;
+  border-right: #23403b solid 0.6rem;
+}
+.last-info div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.last-info div p {
+  font-size: 1.5rem;
+  width: 45vw;
+}
+@media screen and (max-width: 425px) {
+  .last-info {
+    flex-direction: column-reverse;
+  }
+  .last-info img {
+    width: 100%;
+  }
+  .last-info .para-div-2 p {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 85vw;
+    border: unset;
+    justify-content: center;
+  }
+}
+
+.map-div {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  border-left: #23403b solid 0.6rem;
+  border-right: #23403b solid 0.6rem;
+}
+
+.footer-div {
+  border-top: #23403b solid 0.6rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 30vh;
+  font-family: "Special Elite", cursive;
+  background-color: #b6c1b5;
+}
+.footer-div .info-h1-div {
+  flex-direction: column;
+  justify-content: space-around;
+}
+.footer-div a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.2rem;
+}
+.footer-div p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: unset;
+  font-size: 2.2rem;
+}
+@media screen and (max-width: 425px) {
+  .footer-div {
+    flex-direction: column;
+    height: 60vh;
+  }
+  .footer-div .info-h1-div {
+    width: 100vw;
+    padding-top: 5%;
+  }
+  .footer-div .logo-wrapper {
+    height: 25vh;
+  }
+}
+.footer-div .logo-wrapper {
+  display: flex;
+}
+.footer-div .logo-div2 {
+  flex: auto;
+  display: flex;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  -webkit-clip-path: circle(38% at 50% 50%);
+          clip-path: circle(38% at 50% 50%);
+}
+.footer-div .logo-div2 .logo {
+  width: 220px;
+}
+@media screen and (max-width: 425px) {
+  .footer-div .logo-div2 {
+    height: 20vh;
+    -webkit-clip-path: circle(24% at 50% 50%);
+            clip-path: circle(24% at 50% 50%);
+  }
+  .footer-div .logo-div2 .logo {
+    width: 40vw;
+  }
+}
+
+body {
+  margin: unset;
+}/*# sourceMappingURL=input.css.map */
