@@ -1,0 +1,6 @@
+	
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/dervsguns/
+    - /bin/cp -R build $DEPLOYPATH
