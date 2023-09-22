@@ -23,7 +23,7 @@
   background-color: #fff;
   justify-content: center;
   align-items: center;
-  clip-path: circle(6rem at 50% 50%);
+  clip-path: circle(6.5rem at 50% 50%);
   @media screen and (max-width: 450px) {
     clip-path: circle(3.7rem at 50% 50%);
     // img {
@@ -219,6 +219,7 @@
         }
       }
     }
+
     display: flex;
     align-self: center;
     flex-direction: column;
