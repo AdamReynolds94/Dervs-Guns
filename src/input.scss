@@ -23,7 +23,8 @@
   background-color: #fff;
   justify-content: center;
   align-items: center;
-  clip-path: circle(6.5rem at 50% 50%);
+  width: 30vw;
+  clip-path: circle(5rem at 50% 50%);
   @media screen and (max-width: 450px) {
     clip-path: circle(3.7rem at 50% 50%);
     // img {
@@ -32,7 +33,7 @@
   }
 
   .logo {
-    width: 20vw;
+    width: 13rem;
     @media screen and (max-width: 450px) {
       width: 10rem;
     }

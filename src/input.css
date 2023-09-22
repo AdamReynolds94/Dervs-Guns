@@ -19,8 +19,9 @@
   background-color: #fff;
   justify-content: center;
   align-items: center;
-  -webkit-clip-path: circle(6.5rem at 50% 50%);
-          clip-path: circle(6.5rem at 50% 50%);
+  width: 30vw;
+  -webkit-clip-path: circle(5rem at 50% 50%);
+          clip-path: circle(5rem at 50% 50%);
 }
 @media screen and (max-width: 450px) {
   .logo-div {
@@ -29,7 +30,7 @@
   }
 }
 .logo-div .logo {
-  width: 20vw;
+  width: 13rem;
 }
 @media screen and (max-width: 450px) {
   .logo-div .logo {
