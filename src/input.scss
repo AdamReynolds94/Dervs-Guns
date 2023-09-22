@@ -23,18 +23,18 @@
   background-color: #fff;
   justify-content: center;
   align-items: center;
-  clip-path: circle(35% at 50% 50%);
-  @media screen and (max-width: 425px) {
-    clip-path: circle(40% at 50% 50%);
-    img {
-      width: 60vw;
-    }
+  clip-path: circle(6rem at 50% 50%);
+  @media screen and (max-width: 450px) {
+    clip-path: circle(3.7rem at 50% 50%);
+    // img {
+    //   width: 60vw;
+    // }
   }
 
   .logo {
     width: 20vw;
-    @media screen and (max-width: 425px) {
-      width: 50vw;
+    @media screen and (max-width: 450px) {
+      width: 10rem;
     }
   }
 }
@@ -45,7 +45,7 @@
   justify-content: center;
   width: 42vw;
   align-items: center;
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 450px) {
     width: 99vw;
     display: flex;
     justify-content: center;
@@ -60,7 +60,7 @@
   justify-content: center;
   flex-direction: column;
   width: 32vw;
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 450px) {
     width: 100vw;
   }
 }
@@ -70,7 +70,6 @@
   font-size: 2.5rem;
   color: black;
   font-family: "Black Ops One";
-  letter-spacing: 0.1rem;
 }
 
 // Header ends and Body starts
@@ -89,11 +88,11 @@
     color: black;
     font-size: 3.1rem;
     font-family: "Special Elite", cursive;
-    @media screen and (max-width: 425px) {
-      font-size: xx-large;
+    @media screen and (max-width: 450px) {
+      font-size: 1.7rem;
     }
   }
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 450px) {
     width: 100vw;
   }
 }
@@ -103,7 +102,7 @@
   display: flex;
   background-color: #fff;
   border-bottom: #23403b solid 0.6rem;
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 450px) {
     height: unset;
     flex-direction: column;
   }
@@ -124,12 +123,12 @@
   .block {
     display: flex;
     border-left: #23403b solid 0.6rem;
-    @media screen and (max-width: 425px) {
+    @media screen and (max-width: 450px) {
       border: unset;
     }
 
     img {
-      @media screen and (max-width: 425px) {
+      @media screen and (max-width: 450px) {
         width: 100%;
         border: unset;
       }
@@ -162,7 +161,7 @@
     border-left: #23403b solid 0.6rem;
     width: 50vw;
   }
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 450px) {
     flex-direction: column-reverse;
 
     p {
@@ -191,7 +190,7 @@
     font-size: 1.5rem;
 
     width: 70vw;
-    @media screen and (max-width: 425px) {
+    @media screen and (max-width: 450px) {
       width: 100%;
       padding: 3%;
       font-size: 1.3rem;
@@ -202,7 +201,7 @@
     border-left: #23403b solid 0.6rem;
   }
   .brands-div {
-    @media screen and (max-width: 425px) {
+    @media screen and (max-width: 450px) {
       p {
         padding-top: 15%;
         align-self: center;
@@ -211,6 +210,7 @@
       }
       .brands {
         flex-direction: column;
+        border-top: #23403b solid 0.6rem;
 
         img {
           width: 50%;
@@ -235,7 +235,7 @@
       align-items: center;
     }
   }
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 450px) {
     flex-direction: column;
     .ar-photo {
       display: none;
@@ -260,7 +260,7 @@
     width: 45%;
     border-right: #23403b solid 0.6rem;
   }
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 450px) {
     flex-direction: column;
     width: 100%;
     p {
@@ -299,7 +299,7 @@
     border-left: #23403b solid 0.6rem;
     width: 49vw;
   }
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 450px) {
     flex-direction: column;
     img {
       border-bottom: #23403b solid 0.6rem;
@@ -335,7 +335,7 @@
     }
   }
 
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 450px) {
     flex-direction: column-reverse;
 
     img {
@@ -392,9 +392,9 @@
     font-size: 2.2rem;
   }
 
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 450px) {
     flex-direction: column;
-    height: 60vh;
+    height: 48vh;
     .info-h1-div {
       width: 100vw;
       padding-top: 5%;
@@ -411,15 +411,15 @@
     background-color: #fff;
     justify-content: center;
     align-items: center;
-    clip-path: circle(38% at 50% 50%);
+    clip-path: circle(5rem at 50% 50%);
     .logo {
       width: 220px;
     }
-    @media screen and (max-width: 425px) {
+    @media screen and (max-width: 450px) {
       height: 20vh;
-      clip-path: circle(24% at 50% 50%);
+      clip-path: circle(2.5rem at 50% 50%);
       .logo {
-        width: 40vw;
+        width: 6.5rem;
       }
     }
   }

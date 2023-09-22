@@ -19,24 +19,21 @@
   background-color: #fff;
   justify-content: center;
   align-items: center;
-  -webkit-clip-path: circle(35% at 50% 50%);
-          clip-path: circle(35% at 50% 50%);
+  -webkit-clip-path: circle(6rem at 50% 50%);
+          clip-path: circle(6rem at 50% 50%);
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 450px) {
   .logo-div {
-    -webkit-clip-path: circle(40% at 50% 50%);
-            clip-path: circle(40% at 50% 50%);
-  }
-  .logo-div img {
-    width: 60vw;
+    -webkit-clip-path: circle(3.7rem at 50% 50%);
+            clip-path: circle(3.7rem at 50% 50%);
   }
 }
 .logo-div .logo {
   width: 20vw;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 450px) {
   .logo-div .logo {
-    width: 50vw;
+    width: 10rem;
   }
 }
 
@@ -48,7 +45,7 @@
   width: 42vw;
   align-items: center;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 450px) {
   .name-div {
     width: 99vw;
     display: flex;
@@ -66,7 +63,7 @@
   flex-direction: column;
   width: 32vw;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 450px) {
   .info-div {
     width: 100vw;
   }
@@ -77,7 +74,6 @@
   font-size: 2.5rem;
   color: black;
   font-family: "Black Ops One";
-  letter-spacing: 0.1rem;
 }
 
 .CTA {
@@ -97,12 +93,12 @@
   font-size: 3.1rem;
   font-family: "Special Elite", cursive;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 450px) {
   .CTA .heading {
-    font-size: xx-large;
+    font-size: 1.7rem;
   }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 450px) {
   .CTA {
     width: 100vw;
   }
@@ -114,7 +110,7 @@
   background-color: #fff;
   border-bottom: #23403b solid 0.6rem;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 450px) {
   .background-div {
     height: unset;
     flex-direction: column;
@@ -137,12 +133,12 @@
   display: flex;
   border-left: #23403b solid 0.6rem;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 450px) {
   .background-div .block {
     border: unset;
   }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 450px) {
   .background-div .block img {
     width: 100%;
     border: unset;
@@ -174,7 +170,7 @@
   border-left: #23403b solid 0.6rem;
   width: 50vw;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 450px) {
   .top-info {
     flex-direction: column-reverse;
   }
@@ -205,7 +201,7 @@
   font-size: 1.5rem;
   width: 70vw;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 450px) {
   .mid-info p {
     width: 100%;
     padding: 3%;
@@ -221,7 +217,7 @@
   align-self: center;
   flex-direction: column;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 450px) {
   .mid-info .brands-div p {
     padding-top: 15%;
     align-self: center;
@@ -230,6 +226,7 @@
   }
   .mid-info .brands-div .brands {
     flex-direction: column;
+    border-top: #23403b solid 0.6rem;
   }
   .mid-info .brands-div .brands img {
     width: 50%;
@@ -249,7 +246,7 @@
   height: 40%;
   align-items: center;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 450px) {
   .mid-info {
     flex-direction: column;
   }
@@ -276,7 +273,7 @@
   width: 45%;
   border-right: #23403b solid 0.6rem;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 450px) {
   .bottom-info {
     flex-direction: column;
     width: 100%;
@@ -316,7 +313,7 @@
   border-left: #23403b solid 0.6rem;
   width: 49vw;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 450px) {
   .end-info {
     flex-direction: column;
   }
@@ -352,7 +349,7 @@
   font-size: 1.5rem;
   width: 45vw;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 450px) {
   .last-info {
     flex-direction: column-reverse;
   }
@@ -402,10 +399,10 @@
   margin: unset;
   font-size: 2.2rem;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 450px) {
   .footer-div {
     flex-direction: column;
-    height: 60vh;
+    height: 48vh;
   }
   .footer-div .info-h1-div {
     width: 100vw;
@@ -424,20 +421,20 @@
   background-color: #fff;
   justify-content: center;
   align-items: center;
-  -webkit-clip-path: circle(38% at 50% 50%);
-          clip-path: circle(38% at 50% 50%);
+  -webkit-clip-path: circle(5rem at 50% 50%);
+          clip-path: circle(5rem at 50% 50%);
 }
 .footer-div .logo-div2 .logo {
   width: 220px;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 450px) {
   .footer-div .logo-div2 {
     height: 20vh;
-    -webkit-clip-path: circle(24% at 50% 50%);
-            clip-path: circle(24% at 50% 50%);
+    -webkit-clip-path: circle(2.5rem at 50% 50%);
+            clip-path: circle(2.5rem at 50% 50%);
   }
   .footer-div .logo-div2 .logo {
-    width: 40vw;
+    width: 6.5rem;
   }
 }
 
