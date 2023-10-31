@@ -22,7 +22,7 @@ const About = () => {
         <div className="mid-info">
           <div className="brands-div">
             {" "}
-            <p>We special order many brands and dealer exlusives.</p>
+            <p>We special order many brands and dealer exclusives.</p>
             <div className="brands">
               <img className="brand-img" src={SCo}></img>
               <img className="brand-img" src={sandw}></img>
@@ -36,7 +36,7 @@ const About = () => {
         <div className="bottom-info">
           <img src={glock} />
           <p>
-            We have a full invintory for you to find the perfect firearm to fit
+            We have a full inventory for you to find the perfect firearm to fit
             any need you may have.
           </p>
         </div>
@@ -44,17 +44,17 @@ const About = () => {
           <img src={shhhh} />
           <div className="para-div">
             <p>NFA items are here. </p>
-            <p>Supressors, Short Barreled Rifles and Machine guns</p>
+            <p>Suppressors, Short Barreled Rifles, and Machine guns</p>
           </div>
         </div>
         <div className="last-info">
           <img src={range} />
           <div className="para-div-2">
             <p>
-              We offer a full line of traning, Weather you want to learn more
+              We offer a full line of training, Whether you want to learn more
               about basic firearms safety or you are looking for more advanced
-              traning for an ehanced concealed cerry lisece. We can take on all
-              your traning needs.
+              training for an enhanced concealed carry license. We can take on
+              all your training needs.
             </p>
           </div>
         </div>
