@@ -44,7 +44,7 @@ const About = () => {
           <img src={shhhh} />
           <div className="para-div">
             <p>NFA items are here. </p>
-            <p>Suppressors, Short Barreled Rifles, and Machine guns</p>
+            <p>Suppressors, Short Barreled Rifles, and Machine guns.</p>
           </div>
         </div>
         <div className="last-info">
