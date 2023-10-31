@@ -6,7 +6,7 @@ import shhhh from "../img/texas-supressor-.webp";
 import browning from "../img/browning_sig_1.webp";
 import sig from "../img/SIG SAUER Logo.webp";
 import sandw from "../img/media-center-image1-black-PNG_1.webp";
-import ca from "../img/CA_Logo-Dark-01_1.webp";
+import ca from "../img/CA_Logo-Dark-01.webp";
 import range from "../img/gun range.webp";
 import SCo from "../img/stacked-black.webp";
 import rugar from "../img/wra-flat-bw-logo-_1_.webp";
