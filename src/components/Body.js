@@ -11,8 +11,8 @@ const Body = () => {
             <p>
               We love guns! Plain and simple. We offer the community that we
               live in the best deals that we can, all the time. If you are
-              looking for a special gun, transfer, ammunition, or
-              accessories.... we got you.
+              looking for a special gun, transfer, ammunition, or accessories...
+              we got you.
             </p>
           </div>
         </div>

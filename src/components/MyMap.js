@@ -9,7 +9,7 @@ function MyMap() {
       <Map
         provider={maptilerProvider}
         height={700}
-        defaultCenter={[48.17271, -116.59464]}
+        defaultCenter={[48.17272, -116.59464]}
         defaultZoom={9}
         twoFingerDrag={true}
         width={"100vw"}
