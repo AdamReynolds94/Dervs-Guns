@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e4288b39.css",
+    "main.js": "/static/js/main.ae9cf3c8.js",
+    "static/js/787.7b896157.chunk.js": "/static/js/787.7b896157.chunk.js",
+    "static/media/thomas-tucker-dAoj0nGmAi8-unsplash.webp": "/static/media/thomas-tucker-dAoj0nGmAi8-unsplash.990855a6c3f85fae8dac.webp",
+    "static/media/chase-mcbride-jc7lgQhVWtY-unsplash.webp": "/static/media/chase-mcbride-jc7lgQhVWtY-unsplash.7a5b4e398fb93b269ace.webp",
+    "static/media/Glocks.webp": "/static/media/Glocks.9ff10b4192b6c0f68626.webp",
+    "static/media/stngr-industries-lWubJa7-co-unsplash.webp": "/static/media/stngr-industries-lWubJa7-co-unsplash.7e637386fe0053d3948d.webp",
+    "static/media/gun range.webp": "/static/media/gun range.371ae1f60957f580c767.webp",
+    "static/media/texas-supressor-.webp": "/static/media/texas-supressor-.f67e456232ae26c27881.webp",
+    "static/media/stacked-black.webp": "/static/media/stacked-black.8cf85fc5473888c433da.webp",
+    "static/media/2.webp": "/static/media/2.aae90e99d010399545ea.webp",
+    "static/media/SIG SAUER Logo.webp": "/static/media/SIG SAUER Logo.88f31883cae3c042df99.webp",
+    "static/media/CA_Logo-Dark-01.webp": "/static/media/CA_Logo-Dark-01.5f2acbe7c84a5d13eb1b.webp",
+    "static/media/wra-flat-bw-logo-_1_.webp": "/static/media/wra-flat-bw-logo-_1_.5abaee59f1b43ae54a44.webp",
+    "static/media/media-center-image1-black-PNG_1.webp": "/static/media/media-center-image1-black-PNG_1.3c0ceb1e85d5f0463d55.webp",
+    "static/media/browning_sig_1.webp": "/static/media/browning_sig_1.00888f88d50f3466f4de.webp",
+    "index.html": "/index.html",
+    "main.e4288b39.css.map": "/static/css/main.e4288b39.css.map",
+    "main.ae9cf3c8.js.map": "/static/js/main.ae9cf3c8.js.map",
+    "787.7b896157.chunk.js.map": "/static/js/787.7b896157.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4288b39.css",
+    "static/js/main.ae9cf3c8.js"
+  ]
+}
